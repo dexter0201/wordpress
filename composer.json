@@ -30,12 +30,12 @@
         "roots/wordpress-core-installer": ">=1.0.0"
     },
     "dist": {
-        "url": "https://github.com/WordPress/WordPress/archive/master.zip",
+        "url": "https://wordpress.org/nightly-builds/wordpress-latest.zip",
         "type": "zip"
     },
     "source": {
-        "url": "https://github.com/WordPress/WordPress.git",
-        "type": "git",
-        "reference": "master"
+        "url": "https://core.svn.wordpress.org",
+        "type": "svn",
+        "reference": "trunk"
     }
 }
